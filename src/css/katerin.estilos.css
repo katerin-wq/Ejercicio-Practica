@@ -143,19 +143,13 @@ h2{
 
     }
 }
-@media screen and (min-width:375px) and (max-width:420px){
+@media screen and (min-width:421px) and (max-width:800px) {
 
     .transiciones, .giros{
         grid-template-columns:1fr;
 
     }
-
 }
-
-
-
-
-
 /* animacion */
 @keyframes slidein {
     from {
@@ -260,13 +254,13 @@ transform: rotate(360deg);
     transform: rotate(-360deg);
 }
 .Giro_Mitad:hover{
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 .Giro_Right:hover{
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 .Giro_Left:hover{
-    transform: rotate(-90deg);
+    transform: rotate(-180deg);
 }
 .Giro_Infinity:hover{
     transform: rotateX(-900deg);
